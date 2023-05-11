@@ -17,7 +17,7 @@ const Footer = () => {
                     <img src={Logo} alt="Footer Logo" />
                 </Link>
                 <p>
-                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Qui tenetur harum pariatur! Iusto animi cupiditate, provident dolore porro eum obcaecati.
+                    Thank you for visiting! Hope everything went well! Hope to hear from you and thank you for your business.
                 </p>
                 <div className="footer__socials">
                     <a href="https://www.linkedin.com/in/tyler-murrow-98773b187/" target="_blank" rel='noreferrer noopener'><FaLinkedin/></a>
