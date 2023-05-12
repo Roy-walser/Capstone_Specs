@@ -8,21 +8,21 @@ import Card from '../Card'
 const Values = () => {
   return (
     <section className='values'>
-        <div className="container values__container">
-            <div className="values__left">
-                <div className="values__image">
-                    <img src={Image} alt="Values Image" />
+        <div className='container values__container'>
+            <div className='values__left'>
+                <div className='values__image'>
+                    <img src={Image} alt='Values Image' />
                 </div>
             </div>
-            <div className="values__right">
-                <SectionHead icon={<GiCutDiamond/>} title="Values"/>
-                <p className="values4">
+            <div className='values__right'>
+                <SectionHead icon={<GiCutDiamond/>} title='Values'/>
+                <p className='values4'>
                     We love what we do, but here's 4 insights on why believe in clean exteriors:
                 </p>
-                <div className="values__wrapper">
+                <div className='values__wrapper'>
                     {
                         values.map(({id, icon, title, desc}) => {
-                            return <Card key={id} className="values__value">
+                            return <Card key={id} className='values__value'>
                                 <span>{icon}</span>
                                 <h4>{title}</h4>
                                 <small>{desc}</small>

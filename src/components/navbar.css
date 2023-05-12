@@ -23,6 +23,9 @@ nav {
     position: relative;
 }
 
+div.logologo {
+    width: 200px;
+}
 
 .logo {
     width: 7rem;

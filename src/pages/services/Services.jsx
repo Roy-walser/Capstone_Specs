@@ -23,7 +23,7 @@ const Services = () => {
                   return <p key={index} className={!available ? 'disabled' : ''}>{feature}</p>
                 })
               }
-              <button className='btn lg'>Choose Service</button>
+              
             </Card>
           })
         }

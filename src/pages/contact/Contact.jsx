@@ -15,7 +15,7 @@ const Contact = () => {
       <div className="container contact__container">
         <div className="contact__wrapper">
           <a href="mailto:murrowseliteeteriors@gmail.com" target="_blank" rel="noreferrer noopener"><MdEmail/></a>
-          <a href="http://m.me/ernest_achiever" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
+          <a href="https://www.facebook.com/tyler.murrow.982" target="_blank" rel="noreferrer noopener"><BsMessenger/></a>
           <a href="tel 385-230-2267" target="_blank" rel="noreferrer noopener"><IoLogoWhatsapp/></a>
         </div>
       </div>

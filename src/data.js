@@ -1,5 +1,10 @@
 import {SiOpenaigym} from 'react-icons/si'
-
+import serpay from './images/serpay.png'
+import garpay from './images/garpay.png'
+import fropay from './images/fropat.png'
+import bacpay from './images/bacpay.png'
+import garcan from './images/garcan.png'
+import winfen from './images/winfen.png'
 
 
 export const links = [
@@ -20,7 +25,6 @@ export const links = [
         path: '/contact'
     }
 ]
-
 
 export const values = [
     {
@@ -48,14 +52,6 @@ export const values = [
         desc: "Maintaining a beautiful driveway, patio, or fences will ensure your home keeps a handsome appearance, and you don’t lose money dealing with repair costs and other subsequent damages."
     }
 ]
-
-
-
-
-
-
-
-
 
 export const faqs = [
     {
@@ -95,6 +91,7 @@ export const services = [
             {feature: '2 Car - $215', available: true},
             {feature: '4 Car - $145', available: true},
             {feature: '5+ Car - $300', available: true},
+            {feature: <img src={serpay} alt="serpay" />}   
         ]
     },
     {
@@ -106,6 +103,7 @@ export const services = [
             {feature: '2 Car - $70', available: true},
             {feature: '3 Car - $80', available: true},
             {feature: '4+ - $200', available: true},
+            {feature: <img src={garpay} alt="garpay" />}
         ]
     },
     {
@@ -117,6 +115,7 @@ export const services = [
             {feature: 'Medium - $120', available: true},
             {feature: 'Large - $160', available: true},
             {feature: 'Elite - $250', available: true},
+            {feature: <img src={fropay} alt="fropay" />}
         ]
     },
     {
@@ -128,6 +127,7 @@ export const services = [
             {feature: 'Medium - $120', available: true},
             {feature: 'Large - $160', available: true},
             {feature: 'Elite - $250', available: true},
+            {feature: <img src={bacpay} alt="bacpay" />}
         ]
     },
     {
@@ -139,6 +139,7 @@ export const services = [
             {feature: '2 Cans - $35', available: true},
             {feature: '3 Cans - $40', available: true},
             {feature: '4+ Cans - $70', available: true},
+            {feature: <img src={garcan} alt="garcan" />}
         ]
     },
     {
@@ -148,6 +149,7 @@ export const services = [
         features: [
             {feature: '1 - $15', available: true},
             {feature: '6ft / Fence  - $35', available: true},
+            {feature: <img src={winfen} alt="winfen" />}
         ]
     },
 ]

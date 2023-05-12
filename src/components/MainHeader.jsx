@@ -4,17 +4,17 @@ import Image from '../images/main_header.png'
 
 const MainHeader = () => {
   return (
-    <header className="main__header">
-      <div className="container main__header-container">
-        <div className="main__header-left">
+    <header className='main__header'>
+      <div className='container main__header-container'>
+        <div className='main__header-left'>
           <h4 className="MEE">#MurrowsEliteExteriors</h4>
           <h1>Revitalize your property with our expert pressure washing</h1>
-          <Link to="/services" className='btn lg'>Get Started</Link>
+          <Link to='/services' className='btn lg'>Get Started</Link>
         </div>
-        <div className="main__header-right">
-          <div className="main__header-circle"></div>
-          <div className="main__header-image">
-            <img src={Image} alt="Main Header Image" />
+        <div className='main__header-right'>
+          <div className='main__header-circle'></div>
+          <div className='main__header-image'>
+            <img src={Image} alt='Main Header Image' />
           </div>
         </div>
       </div>

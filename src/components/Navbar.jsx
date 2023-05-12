@@ -11,12 +11,12 @@ import './navbar.css'
 const Navbar = () => {
     const [isNavShowing, setIsNavShowing] = useState(false);
     
-
+    
   return (
     <nav>
-        <div className="container nav__container">
-            <Link to="/" className='logo' onClick={() => setIsNavShowing(false)}>
-                <img src={Logo} alt="Nav Logo" />
+        <div className='container nav__container'>
+            <Link to='/' className='logo' onClick={() => setIsNavShowing(false)}>
+                <img src={Logo} alt='Nav Logo' />
             </Link>
             <ul className={`nav__links ${isNavShowing ? 'show__nav' : 'hide__Nav'}`}>
                 {
@@ -29,7 +29,7 @@ const Navbar = () => {
                     })
                 }
             </ul>
-            <button className="nav__toggle-btn" onClick={() => setIsNavShowing(prev => !prev)}>
+            <button className='nav__toggle-btn' onClick={() => setIsNavShowing(prev => !prev)}>
                 {
                     isNavShowing ? <MdOutlineClose/> : <GoThreeBars/>
                 }
